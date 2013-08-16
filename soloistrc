@@ -11,6 +11,7 @@ recipes:
 node_attributes:
   machine:
     name: aiyesha-sfo
+  workspace_directory: projects
   bash_it:
     theme: nibbler
     enabled_plugins:
