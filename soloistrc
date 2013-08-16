@@ -1,8 +1,11 @@
 cookbook_paths:
   - ./cookbooks
 recipes:
-  - meta::osx_base
-  - meta::osx_development
+  - meta::setup_environment
+  - meta::setup_apps
+  - meta::datasci_languages
+  - meta::datasci_databases
+  - meta::datasci_tools_and_editors
   - pivotal_workstation::git_projects
   - meta::symlink_datasci_cookbooks
 node_attributes:
