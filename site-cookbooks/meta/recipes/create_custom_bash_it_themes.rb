@@ -1,4 +1,4 @@
-include_recipe "pivotal_workstation::bash_it"
+include_recipe "sprout-osx-base::bash_it"
 %w{nibbler}.each do |theme_name|
 
   directory "#{ENV['HOME']}/.bash_it/themes/#{theme_name}" do

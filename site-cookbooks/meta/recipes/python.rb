@@ -1,4 +1,4 @@
-include_recipe "pivotal_workstation::bash_it"
+include_recipe "sprout-osx-base::bash_it"
 include_recipe "python::virtualenv"
 
 bash_it_path = "#{ENV['HOME']}/.bash_it"
