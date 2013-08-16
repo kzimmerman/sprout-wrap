@@ -2,15 +2,12 @@ cookbook_paths:
   - ./cookbooks
 recipes:
   - meta::osx_base
-  - meta::osx_apps
   - meta::osx_development
-  - meta::osx_settings
   - pivotal_workstation::git_projects
   - meta::symlink_datasci_cookbooks
-  - meta::public_data_bag_example
 node_attributes:
   machine:
-    name: nibbler-dev-sfo
+    name: aiyesha-sfo
   bash_it:
     theme: nibbler
     enabled_plugins:
@@ -42,7 +39,7 @@ node_attributes:
     rocks:
       inspect:
       busted:
-  mysql_root_password: password
+  mysql_root_password: pwd
   mysql:
     users:
       travis:
@@ -58,6 +55,9 @@ node_attributes:
       name: Dan Buch
       shortname: dan
   git_projects:
+    -
+      - sprout-wrap
+      - git@github.com:Aiyesha/sprout-wrap.git
     -
       - sprout
       - git@github.com:msainz/sprout.git
