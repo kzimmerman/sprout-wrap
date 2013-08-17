@@ -10,6 +10,7 @@ include_recipe "meta::lock_cmd"
 include_recipe "pivotal_workstation::vim"
 include_recipe "pivotal_workstation::vim_config"
 include_recipe "pivotal_workstation::unix_essentials"  #ack, tmux, xquartz, watch, ssh-copy-id, pstree, tree, wget
+include_recipe "meta::create_gvimrc_local"
 
 #include_recipe "sprout-osx-apps::gpg"
 #include_recipe "sprout-osx-apps::gpgtools"

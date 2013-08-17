@@ -47,6 +47,9 @@ node_attributes:
   mysql:
     users:
       travis:
+  vim:
+    font:
+      size: 12
   git_pairs_domain: modcloth.com
   git_pairs_authors:
     - initials: am
