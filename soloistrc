@@ -7,7 +7,6 @@ recipes:
   - meta::datasci_databases
   - meta::datasci_tools_and_editors
   - pivotal_workstation::git_projects
-  - meta::symlink_datasci_cookbooks
 node_attributes:
   machine:
     name: kate-zim
