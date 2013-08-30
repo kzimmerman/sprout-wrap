@@ -10,10 +10,10 @@ recipes:
   - meta::symlink_datasci_cookbooks
 node_attributes:
   machine:
-    name: aiyesha-sfo
-  workspace_directory: projects
+    name: kate-zim
+  workspace_directory: k.zimmerman
   bash_it:
-    theme: nibbler
+    theme: Ocean
     enabled_plugins:
       aliases:
         - general
@@ -61,10 +61,13 @@ node_attributes:
     - initials: db
       name: Dan Buch
       shortname: dan
+    - initials: kz
+      name: Kate Zimmerman
+      shortname: kate
   git_projects:
     -
       - sprout-wrap
-      - git@github.com:Aiyesha/sprout-wrap.git
+      - git@github.com:kzimmerman/sprout-wrap.git
     -
       - sprout
       - git@github.com:msainz/sprout.git
@@ -76,32 +79,7 @@ node_attributes:
       - https://github.com/JuliaLang/julia-vim
       - .vim/bundle
     -
-      - datasci-simit
-      - git@github.com:modcloth/datasci-simit.git
-    -
-      - datasci-simit-cookbook
-      - git@github.com:modcloth/datasci-simit-cookbook.git
-    -
-      - datasci-poptarts
-      - git@github.com:modcloth/datasci-poptarts.git
-    -
-      - datasci-poptarts-cookbook
-      - git@github.com:modcloth/datasci-poptarts-cookbook.git
-    -
-      - datasci-continental
-      - git@github.com:modcloth/datasci-continental.git
-    -
-      - mc-intelligence
-      - git@github.com:modcloth/mc-intelligence.git
-    -
-      - chef-repo
-      - git@github.com:modcloth/chef-repo.git
-    -
-      - chef-config-data-science
-      - git@github.com:modcloth/chef-config-data-science.git
-  data_science:
-    cookbooks:
-      - poptarts
-      - simit
+      - mimosa
+      - https://github.com/modcloth/mimosa.git
 
 
