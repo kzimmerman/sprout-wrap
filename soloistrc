@@ -12,7 +12,7 @@ node_attributes:
     name: kate-zim
   workspace_directory: k.zimmerman
   bash_it:
-    theme: Ocean
+    theme: nibbler
     enabled_plugins:
       aliases:
         - general
